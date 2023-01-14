@@ -7,15 +7,18 @@
 header {
     background: rgba(255, 144, 14, 0.1);
 }
-
-nav {
+nav{
+    display: flex;
+    justify-content: center;
+}
+.nav-box{
+    width: 90%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 5% 0 10%;
 }
 
-ul {
+ul{
     display: flex;
     list-style: none;
 }
@@ -30,7 +33,8 @@ ul>li {
     text-align: center;
 }
 
-.header-description {
+.header-description,
+.bl-description {
     font-family: normal;
     font-size: 12px;
     font-weight: 200;
@@ -61,4 +65,29 @@ ul>li {
 .banner-img{
     height: 100%;
     width: 100%;
+}
+/* quick-feature-section */
+.quick-feature{
+    display: flex;
+    justify-content: center;
+}
+.quick-container{
+    display: flex;
+    width: 75%;
+}
+.team-img{
+    height: 100%;
+    width: 100%;
+}
+.box-left{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap:1%;
+    column-gap: 1%;
+}
+.box-right{
+    width: 50%;
+    display: flex;
+    align-items: center;
 }
