@@ -268,6 +268,35 @@ ul>li {
     font-size: 14px;
 }
 
+/* responsive-section */
+
+@media only screen and (max-width:576px){
+
+    .nav-box{
+        flex-direction: column;
+    }
+    ul{
+        flex-direction: column;
+    }
+    .quick-container{
+        flex-direction: column;
+        width: 100%;
+    }
+    .box-left{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .quick-container{
+        align-items: center;
+    }
+    .box-right-content{
+        margin-top: 20%;
+    }
+    .box-right{
+        text-align: center;
+        width: 100%;
+    }
+}
+
 
 
 
