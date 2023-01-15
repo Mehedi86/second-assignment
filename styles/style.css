@@ -188,7 +188,13 @@ ul>li {
     align-items: center;
     padding: 2%;
     margin: 5% 0;
+    transition: width 1s, height 1s, transform 1.5s;
 }
+.sfh-contnt-box:hover{
+    width: 20%;
+    transform: rotate(360deg);
+}
+
 .scb-description{
     font-size: 14px;
     font-weight: 400;
