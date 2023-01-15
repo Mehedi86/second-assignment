@@ -229,27 +229,32 @@ ul>li {
     height: 100%;
 }
 /* extra-section */
-.cntct-for-middle{
+.contact{
     display: flex;
     justify-content: center;
 }
-.contact-container-main{
-    width: 80%;
-    display: flex;
-    margin: 2%;
-    border-radius: 8px;
-    background: linear-gradient(to bottom, rgb(206, 197, 194), rgba(241, 91, 34, 0));
-}
 .contact-container{
-    background-color: rgb(52, 46, 46);
-    border: none;
-    border-radius: 3px;
-    color: #dfb371;
-    box-shadow: 1px 1px 5px 1px rgb(76, 72, 72);
-    padding: 4%;
-    margin: 4%;
+    width: 70%;
+    margin: 3%;
+    padding: 2%;
+    border: 2px solid rgb(48, 54, 36);
+    border-radius: 10px;
+    background: linear-gradient(to bottom, rgb(151, 134, 134), rgba(241, 91, 34, 0));
+    color: rgb(58, 47, 34);
+    text-align: center;
+    box-shadow:1px 1px  #716f68;
 }
 
+.cntct-title{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.cntct-description{
+    font-family: normal;
+    font-size: 12px;
+    font-weight: 400;
+}
 /* footer */
 
 .footer{
@@ -277,6 +282,7 @@ ul>li {
     }
     ul{
         flex-direction: column;
+        width: 100%;
     }
     .quick-container{
         flex-direction: column;
@@ -295,8 +301,50 @@ ul>li {
         text-align: center;
         width: 100%;
     }
-}
+    .enjoy-container{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .enjoy-left-box{
+        height: 170vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .enjoy-right-box{
+        height: 100%;
+        width: 100%;
+    }
+    .feature-options{
+        width: 100%;
+    }
+    .enjy-img{
+        width: 100%;
+        height: 100%;
+    }
+    .some-facts-header,
+    .upper-box{
+        text-align: center;
 
+    }
+    .elb-title{
+        border: none;
+    }
+    .sfh-container {
+        flex-direction: column;
+    }
+    .sfh-contnt-box{
+        width: 100%;
+    }
+    .sponsor-logo{
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
 
 
